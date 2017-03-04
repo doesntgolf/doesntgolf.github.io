@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nate Dobbins writes things.</title>
+    <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://natedobbins.net</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 27 Dec 2016 00:00:00 UTC</updated>
+    
+    
+    <item>
+      <title>Sunk Costs</title>
+      <link>https://natedobbins.net/audio/sunk-costs.html</link>
+      <enclosure url="https://natedobbins.net/audio/sunk-costs.ogg" type="audio/ogg" />
+      <pubDate>Tue, 27 Dec 2016</pubDate>
+      <author>Nate Dobbins</author>
+      <guid>https://natedobbins.net/audio/sunk-costs.html</guid>
+      <description>
+
+&lt;audio controls&gt;
+  &lt;source src=&#34;/audio/sunk-costs.ogg&#34; type=&#34;audio/ogg&#34;&gt;
+  &lt;a href=&#34;/audio/sunk-costs.ogg&#34;&gt;Download audio file.&lt;/a&gt;
+&lt;/audio&gt;
+
+
+&lt;p&gt;The dialogue is from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Foundation_series#Radio_adaptation&#34;&gt;radio adaptation of Isaac Asimov&amp;rsquo;s Foundation trilogy&lt;/a&gt;, originally broadcast on BBC Radio 3 in 1973, now in the public domain. The full audio series is available &lt;a href=&#34;https://archive.org/details/IsaacAsimov-TheFoundationTrilogy&#34;&gt;on the Internet Archive&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s very apparent clipping on the guitar tracks that I couldn&amp;rsquo;t figure out, so I just rolled with it. I wrote and recorded some lyrics for it, but I just didn&amp;rsquo;t like how it came out. The higher, two-note guitar track was my first time recording with an E-Bow, which was fun.&lt;/p&gt;
+
+&lt;h1 id=&#34;software:96887e21471164fc81ff5c77e90d2e5b&#34;&gt;Software&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ubuntustudio.org/&#34;&gt;Ubuntu Studio&lt;/a&gt; 16.04, &lt;a href=&#34;http://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt; 2.1.0, &lt;a href=&#34;http://www.hydrogen-music.org/hcms/&#34;&gt;Hydrogen&lt;/a&gt; 0.9.6.1&lt;/p&gt;
+
+&lt;h1 id=&#34;hardware:96887e21471164fc81ff5c77e90d2e5b&#34;&gt;Hardware&lt;/h1&gt;
+
+&lt;p&gt;Mexican Fender Stratocaster, 2012 &lt;a href=&#34;https://en.wikipedia.org/wiki/ThinkPad_X1_Carbon&#34;&gt;Lenovo ThinkPad X1 Carbon&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/EBow&#34;&gt;E-Bow&lt;/a&gt;, &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2401602,00.asp&#34;&gt;M-Audio FastTrack&lt;/a&gt; audio interface, Behringer CO600 chorus pedal&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Swimming</title>
+      <link>https://natedobbins.net/audio/swimming.html</link>
+      <enclosure url="https://natedobbins.net/audio/swimming.ogg" type="audio/ogg" />
+      <pubDate>Sun, 18 Dec 2016</pubDate>
+      <author>Nate Dobbins</author>
+      <guid>https://natedobbins.net/audio/swimming.html</guid>
+      <description>
+
+&lt;audio controls&gt;
+  &lt;source src=&#34;/audio/swimming.ogg&#34; type=&#34;audio/ogg&#34;&gt;
+  &lt;a href=&#34;/audio/swimming.ogg&#34;&gt;Download audio file.&lt;/a&gt;
+&lt;/audio&gt;
+
+
+&lt;p&gt;I recorded this earlier this year when I was &lt;a href=&#34;/travel/two-months-on-malaysian-islands.html&#34;&gt;in George Town&lt;/a&gt; on the island Penang in Malaysia, and forgot about it. I was learning to use an audio programming program called Sonic Pi.&lt;/p&gt;
+
+&lt;h1 id=&#34;software:ca00123262fa89a84d50980f0a7382a3&#34;&gt;Software&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ubuntustudio.org/&#34;&gt;Ubuntu Studio&lt;/a&gt; 16.04, &lt;a href=&#34;http://sonic-pi.net/&#34;&gt;Sonic Pi&lt;/a&gt; 2.9.0, &lt;a href=&#34;http://www.audacityteam.org/&#34;&gt;Audacity&lt;/a&gt; 2.1.0&lt;/p&gt;
+
+&lt;h1 id=&#34;hardware:ca00123262fa89a84d50980f0a7382a3&#34;&gt;Hardware&lt;/h1&gt;
+
+&lt;p&gt;2012 &lt;a href=&#34;https://en.wikipedia.org/wiki/ThinkPad_X1_Carbon&#34;&gt;Lenovo ThinkPad X1 Carbon&lt;/a&gt;, a pair of headphones I&amp;rsquo;d bought at a George Town mall that worked for about a week&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>
+

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Links ‧  Nate Dobbins</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Nate Dobbins">
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="/links.html">
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="alternate" type="application/rss+xml" title="All posts" href="/index.xml" />
+  
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="max-width-4 mx-auto sm-flex items-end">
+
+      <img class="px1" src="/img/robin2.png" title="image by Nick Lee, CC BY; see footer" alt="watercolor robin" />
+      <nav class="flex-auto px1">
+        <h1><a href="/">Nate Dobbins</a></h1>
+        <div id="nav-div"><a href="/" >about</a> ‧ <a href="/archive.html">archive</a> ‧ <a href="/tags.html">tags</a> ‧ <a href="/projects.html">projects</a><span id="links-span"></span></div>
+      </nav>
+      <div id="search-div" class="px1 pt1"></div>
+        
+      <script>
+        var linksSpan = document.getElementById('links-span');
+        linksSpan.innerHTML = ' ‧ <a href="/links.html" class="active">links</a>';
+
+        var searchDiv = document.getElementById('search-div');
+        searchDiv.innerHTML = '<form class="search-bar" action="/search.html"><input type="search" id="search" name="query" required /><button type="submit">search</button></form>';
+      </script>
+
+    </div>
+  </header>
+  <hr />
+  <main class="line-height-4 my1">
+    <div class="max-width-4 mx-auto clearfix">
+
+
+  <div class="page-header px1">
+    <h1 class="feed-title">links</h1> [<a class="feed-link" href="https://feeds.pinboard.in/rss/u:nated/">feed</a>]<span id="all-links"></span>
+    <p class="m0">The internet—curated by yours truly.</p>
+  </div>
+
+  <div class="px1">
+  <noscript>This page requires JavaScript. If you'd prefer not to enable JS or you don't have access to a browser with JS, you can view the links <a href="https://pinboard.in/u:nated">here</a>.</noscript>
+
+  <section id="links-list"></section>
+
+  <p>You can view the full list of links I've shared <a href="https://pinboard.in/u:nated">on Pinboard</a>.</p>
+
+  </div>
+
+  <script>
+    function getURLParameter(name) {
+      return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+    }
+
+    var tagParam = getURLParameter('tag');
+
+    function listLinks(links) {
+      document.getElementById('links-list').innerHTML = '<p>loading...</p>';
+      var linksListHtml = '<ul class="list-reset">';
+      links.forEach(function (link, idx, i) {
+        var tagListHtml = '';
+        link.t.map(function(tag) {
+          if (tag) { tagListHtml += '<a href="/links.html?tag=' + tag + '" class="tag green">' + tag + '</a>' };
+        })
+        linksListHtml += '<li class="mb1"><div class="item-title"><a href="' + link.u + '">' + link.d + '</a></div>' + (!tagParam ? tagListHtml : "" ) + '<div class="item-link">' + link.u + '</div><div class="search-summary">' + link.n + '</div></li>';
+      })
+      linksListHtml += '</ul>';
+      document.getElementById('links-list').innerHTML = linksListHtml;
+
+    }
+     
+    var pinboard = document.createElement('script');
+    if (!tagParam) {
+      pinboard.setAttribute('src', 'https://feeds.pinboard.in/json/v1/u:nated/?cb=listLinks&count=40')
+    } else {
+      pinboard.setAttribute('src', 'https://feeds.pinboard.in/json/v1/u:nated/t:' + tagParam + '/?cb=listLinks&count=40')
+      document.getElementsByClassName('feed-title')[0].innerText += ' tagged "' + tagParam + '"';
+      document.getElementsByClassName('feed-link')[0].setAttribute('href', 'https://feeds.pinboard.in/rss/u:nated/t:' + tagParam);
+      document.getElementById('all-links').innerHTML = ' [<a class="feed-link" href="/links.html">view all links</a>]';
+    }
+    document.body.appendChild(pinboard);
+  </script>
+
+      </div>
+    </main>
+    <hr />
+    <footer class="site-footer max-width-4 mx-auto p1">
+
+      <p id="license">All content <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike</a> unless otherwise noted. (<a href="/license.html">Read more.</a>)</p>
+      <p id="contact">You can reach me by email at <em>nated [at] posteo [dot] net</em> or on matrix <em>@nated:matrix.org</em>. I have a <a href="https://keybase.io/natedobbins/key.asc">public key</a> (<code>3791 B503 7FB3 BF5C</code>).</p>
+      <p id="site-info">Site built with <a href="https://gohugo.io">Hugo</a>. Header image by Nick Lee, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a> (<a href="https://www.flickr.com/photos/gamutless/3788100979/in/faves-133041204@N06/">original</a>). You can subscribe to all posts via the <a href="/index.xml">main RSS feed</a>, or to any topic at /<em>tag</em>/index.xml (see the <a href="/tags.html">tags page</a>).</p>
+      <span class="active">**</span>
+  
+    </footer>
+
+		
+
+<script>
+
+
+
+
+
+
+</script>
+
+
+  </body>
+</html>
+

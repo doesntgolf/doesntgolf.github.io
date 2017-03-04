@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/natedobbins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://natedobbins.net
+  * I am natedobbins (https://keybase.io/natedobbins) on keybase.
+  * I have a public key with fingerprint 983C DA3B AD13 A8A6 3EF1  85BD 3791 B503 7FB3 BF5C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01017a7e8d74baab2c06a06c3962b1e8d9dcdb46fc7b556a1cf0b9d0b4eac26d43ea0a",
+            "fingerprint": "983cda3bad13a8a63ef185bd3791b5037fb3bf5c",
+            "host": "keybase.io",
+            "key_id": "3791b5037fb3bf5c",
+            "kid": "01017a7e8d74baab2c06a06c3962b1e8d9dcdb46fc7b556a1cf0b9d0b4eac26d43ea0a",
+            "uid": "d38812238904355b34dd6a5104daac19",
+            "username": "natedobbins"
+        },
+        "revoke": {
+            "sig_ids": [
+                "ccd1f22aaa21c2bb1d50f17885542915089e09b5920931e0d9134c0dd5c0128d0f"
+            ]
+        },
+        "service": {
+            "hostname": "natedobbins.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1448617414,
+    "expire_in": 157680000,
+    "prev": "7ff7a9d9383ea37754f5c4f171cc11c9864425b9c9e6a8c942758263da9e5f5a",
+    "seqno": 28,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.49
+Comment: https://keybase.io/crypto
+
+yMJtAnicrVJdbBVFFL79pW0AixS1El+WH0u84MzOzO7MfUN9MJCYaIwSfnIzf9uu
+vd297O69/ZOkhCi1kWDjg5iUBo1IowRjSkzU0FTFFmICBB4gMbkJpgbhobESo8K1
+dbbRJ310XiZz5jvf+c53zvlVdZmWmr7F0clg6ZH2mu++ulfKvLRr08ygJULVb+UG
+rW69fOmC0nGS7/aVlbMABNDlrqbKxYJzYUvgcOBIxBxbQBNmSiqBHU+6ghCHQ+kB
+wRQQWHNpOwojzQG3spbnB506KkZ+kBhaRpFUHAmuIOKUO0h7kBKhkMugIAC5nkDC
+I9IkdoVxmmHECR7rbX5oYuaRX5b3H/j/WXdpmU4hSqFtI8oARoQIhJVyOIEAK84l
+ZCkw1lHAe7RBBzzRKhTCD2LrQNaKdDns1qm1sd9pdMdWbo8lpYKebXPObShtIaAi
+wIMupYRgm0ECKNOACcJswBDUQDGIsARKEQmgTRXwrH2G2xQt+3KZPDXq3wK2BTox
+6opRmIQyLJjPriQpxrlUWNJfTNG9WuT/5smbFGUmZTLKOor9MLBy0CBl4qfEEGPq
+QBdDnLV0X9GPdN5PEcR1KDAnraPLhtL1PJczxRA1PiLXJdgMB5v+oJQQSkYdjG0i
+mGTa4VQybLuE2g5SnGnikdT4WO8PQitnU6OTdxpOY57pqxRp68DX03vrMzUtmcaG
+2nSFMy3Nrf8sdu3IiqU9t+DYKbV57Rp+UNR9M3vhxiu7Pzr6cm5qxcZ11ZnX77Af
+ju46Bx+9M/3b9OQLBbalb01d5XKh2Hjs4YlXNz6QNN1rff/Q3WuXvq0M3917fGv7
+U/0rvxw6/vF6veFJ8uHzn862Xqu7PzMyOFXMgaHMaEftoXP502033/zluWLf6snz
+lQ0Xh69kt9xvGz/T/PODycWxbBed/+zHs9//MfDBeLW5pad6a75j9kSp+trVt/KL
+c/P1O+a2NwxN7Ht6Z4GVl35tWqiURq8sdESHH7rQ9O70+mffOTl5s/GJ6oubr//Z
+mx94bwf55I0jn58cf7znp8uP1UdjPLPwzO9T/ccGvjhyIrm96u0z47cr7l8V82Ri
+=Ljww
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/natedobbins
+
+==================================================================
+

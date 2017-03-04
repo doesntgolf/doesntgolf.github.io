@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nate Dobbins writes things.</title>
+    <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://natedobbins.net</link>
+    <language>en-us</language>
+    
+    
+    <updated>Thu, 22 Dec 2016 00:00:00 UTC</updated>
+    
+    
+    <item>
+      <title>Peaking Inside a MacBook Pro</title>
+      <link>https://natedobbins.net/computers/peaking-inside-a-macbook-pro.html</link>
+      
+      <pubDate>Thu, 22 Dec 2016</pubDate>
+      <author>Nate Dobbins</author>
+      <guid>https://natedobbins.net/computers/peaking-inside-a-macbook-pro.html</guid>
+      <description>
+
+&lt;p&gt;Last week a co-worker accidentally dropped her 2010 Macbook Pro 13&amp;rdquo;. It was in a bag, and only dropped a short distance to the ground, so the case wasn&amp;rsquo;t damaged. But upon opening it and trying to power it on, it wouldn&amp;rsquo;t boot. It gave three short beeps, then a pause, then three more beeps, over and over.&lt;/p&gt;
+
+&lt;p&gt;Luckily apple.com has &lt;a href=&#34;https://support.apple.com/en-us/HT202768&#34;&gt;a support thread&lt;/a&gt; explaining that the RAM wasn&amp;rsquo;t passing an integrity check, probably meaning it had become dislodged or something. I was a bit excited because I&amp;rsquo;ve never looked inside a Macbook before.&lt;a class=&#34;ref&#34; href=&#34;#ref-1&#34; id=&#34;cit-1&#34;&gt;[1]&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;We didn&amp;rsquo;t have a screwdriver in the office small enough to take out the tiny screws holding together the MacBook case, but I eventually got it open using a paring knife we had in the kitchen.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;img src=&#34;https://c5.staticflickr.com/1/557/30928488924_4954859664_b.jpg&#34; alt=&#34;Under the hood of a 2010 MacBook Pro 13&amp;#34;&#34; /&gt;
+  
+    &lt;figcaption&gt;
+      &lt;h4 class=&#34;alt&#34;&gt;Under the hood of a 2010 MacBook Pro 13&amp;#34;&lt;/h4&gt;
+      
+    &lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+
+&lt;p&gt;In the photo above the memory is sitting in the center-right &amp;ndash; under the white label with a barcode.&lt;a class=&#34;ref&#34; href=&#34;#ref-2&#34; id=&#34;cit-2&#34;&gt;[2]&lt;/a&gt;
+ There are two small levers on either side of the RAM that can be pulled apart to takes out the RAM. It pops out at an angle about 45 degrees vertically from the surface of the motherboard, and goes back in the same way, giving a nice audible click when it&amp;rsquo;s seated back in place.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d never looked inside a Macbook before and was excited to take a look at the esteemed build quality, and I wasn&amp;rsquo;t let down. That this was a 6 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; year old laptop still chugging along &amp;ndash; not to mention being easy to diagnose and repair a hardware issue &amp;ndash; is a testament to how well put together these are.&lt;/p&gt;
+
+&lt;h1 id=&#34;notes:aa8367581fca9c38fb003bafee883020&#34;&gt;Notes&lt;/h1&gt;
+
+&lt;p&gt;&lt;ol&gt;&lt;li id=&#34;ref-1&#34;&gt;Besides watching &lt;a href=&#34;https://www.youtube.com/user/rossmanngroup&#34;&gt;Louis Rossmann&lt;/a&gt; videos. &lt;a class=&#34;cit&#34; href=&#34;#cit-1&#34;&gt;&amp;crarr;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&#34;ref-2&#34;&gt;It&amp;rsquo;s hard to tell, but if you look closely you can make out that the RAM is still slightly twisted out of its slot in the photo. &lt;a class=&#34;cit&#34; href=&#34;#cit-2&#34;&gt;&amp;crarr;&lt;/a&gt;&lt;/li&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Keyboards</title>
+      <link>https://natedobbins.net/computers/keyboards.html</link>
+      
+      <pubDate>Thu, 15 Dec 2016</pubDate>
+      <author>Nate Dobbins</author>
+      <guid>https://natedobbins.net/computers/keyboards.html</guid>
+      <description>
+
+&lt;h1 id=&#34;waiting:061ed8642bb5183054a15f89090ff532&#34;&gt;Waiting&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;For the last 3 or so years, I&amp;rsquo;ve been passively searching for a really good keyboard, since I spend a lot of time typing. Mainly my wants were for it to be ergonomic (split) and to have mechanical keyswitches. After my brother semi-recently started having major &lt;a href=&#34;https://en.wikipedia.org/wiki/Repetitive_strain_injury&#34;&gt;RSI&lt;/a&gt; issues, my search has been kicked into high gear. Herein I&amp;rsquo;ll attempt to document some thoughts on the keyboards I considered.&lt;/p&gt;
+
+&lt;h2 id=&#34;keyboardio:061ed8642bb5183054a15f89090ff532&#34;&gt;Keyboardio&lt;/h2&gt;
+
+&lt;p&gt;The first keyboard that really caught my attention was &lt;a href=&#34;https://shop.keyboard.io/&#34;&gt;Keyboardio&lt;/a&gt;, mainly because of the really great &lt;a href=&#34;http://blog.fsck.com/2013/12/better-and-better-keyboards.html&#34;&gt;blog post&lt;/a&gt; from Jesse Vincent&amp;ndash;one of the two founders&amp;ndash;describing the different iterations he went through while initially designing it. It was funded as a Kickstarter project&amp;ndash;and easily met it&amp;rsquo;s goal&amp;ndash;but unfortunately has been stuck in design and manufacturing stages for a long time, and is still in pre-order status, expected to be delivered in Q1 2017.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://cdn.shopify.com/s/files/1/0920/0728/products/looking_across_from_front_l_corner_grande.jpg?v=1437001156&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;Fortunately the team has been really open about the entire process, and has &lt;a href=&#34;http://blog.keyboard.io/&#34;&gt;written extensively&lt;/a&gt; about it, including the various decisions that have gone into design, and hurdles they&amp;rsquo;ve had to jump in working with hardware manufacturers. It&amp;rsquo;s been a super fascinating process to follow.&lt;/p&gt;
+
+&lt;p&gt;The main reason I didn&amp;rsquo;t buy one was because of the price, $329 (was $250 for Kickstarter backers if I recall correctly), which is more than I&amp;rsquo;d like to pay.&lt;/p&gt;
+
+&lt;h2 id=&#34;ergodox:061ed8642bb5183054a15f89090ff532&#34;&gt;Ergodox&lt;/h2&gt;
+
+
+&lt;figure class=&#34;right large&#34;&gt;
+    
+        &lt;img src=&#34;https://www.ergodox.io/img/ErgoDox-original-min.png&#34; alt=&#34;Ergodox&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;The next keyboard I seriously considered was the &lt;a href=&#34;https://www.ergodox.io/&#34;&gt;Ergodox&lt;/a&gt;. The design of the Ergodox is really cool (and freely licensed!), but it takes a little more than &amp;ldquo;here&amp;rsquo;s some money&amp;rdquo; to procure one. They generally have to be bought as a kit, and you have to buy the kit as part of a &amp;ldquo;drop&amp;rdquo; (a group manufacturing deal). Then, you&amp;rsquo;ll have to do some soldering and flash the firmware onto the keyboard.&lt;/p&gt;
+
+&lt;p&gt;This leaves a lot of room for customization (and people have made some &lt;a href=&#34;https://www.reddit.com/r/MechanicalKeyboards/search?q=ergodox&amp;amp;sort=top&amp;amp;restrict_sr=on&#34;&gt;seriously cool designs&lt;/a&gt;), and deserves a lot of credit for the DIY ethos, but it was more work than I wanted to sign up for. Then along came the &lt;a href=&#34;https://ergodox-ez.com/&#34;&gt;Ergodox EZ&lt;/a&gt;, a pre-assembled Ergodox. I would&amp;rsquo;ve leapt at this, but the price was just a little higher than I wanted to pay, because when it first became available for IndieGogo pre-order (it&amp;rsquo;s now available for regular purchase) I wasn&amp;rsquo;t employed.&lt;/p&gt;
+
+&lt;h2 id=&#34;kinesis-advantage:061ed8642bb5183054a15f89090ff532&#34;&gt;Kinesis Advantage&lt;/h2&gt;
+
+
+&lt;figure class=&#34;right&#34;&gt;
+    
+        &lt;img src=&#34;https://www.kinesis-ergo.com/wp-content/uploads/2016/08/kb600-angled-cc-510x344.jpg&#34; alt=&#34;Kinesis Advantage&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I haven&amp;rsquo;t really seriously considered the &lt;a href=&#34;https://www.kinesis-ergo.com/shop/advantage2/&#34;&gt;Kinesis Advantage&lt;/a&gt; because of the price (are you noticing a trend?), but it&amp;rsquo;s a cool keyboard that I read about pretty extensively anyway. Kinesis has been making ergonomic keyboards with mechanical keys for longer than anyone else as far as I&amp;rsquo;m aware. Anandtech has &lt;a href=&#34;http://www.anandtech.com/show/7125/kinesis-advantage-review-longterm-evaluation&#34;&gt;a really good review&lt;/a&gt; of the Advantage.&lt;/p&gt;
+
+&lt;h2 id=&#34;ultimate-hacking-keyboard:061ed8642bb5183054a15f89090ff532&#34;&gt;Ultimate Hacking Keyboard&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://ultimatehackingkeyboard.com/&#34;&gt;Ultimate Hacking Keyboard&lt;/a&gt; is another crowdfunded one that&amp;rsquo;s still in the pre-order process (&lt;a href=&#34;https://www.crowdsupply.com/ugl/ultimate-hacking-keyboard&#34;&gt;on CrowdSupply&lt;/a&gt;, expected to ship in February).&lt;/p&gt;
+
+
+&lt;figure class=&#34;right&#34;&gt;
+    
+        &lt;img src=&#34;https://ultimatehackingkeyboard.com/wordpress/wp-content/uploads/press-kit/thumbs/IMGL8954.png&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I really like the form factor of the UHK, but again, the price (currently $220, will be $250 after launch) kept me from ordering, although on this one I was pretty close.&lt;/p&gt;
+
+&lt;h2 id=&#34;ibm-model-m:061ed8642bb5183054a15f89090ff532&#34;&gt;IBM Model M&lt;/h2&gt;
+
+&lt;p&gt;I recently inherited an &lt;a href=&#34;https://en.wikipedia.org/wiki/Model_M_keyboard&#34;&gt;IBM Model M&lt;/a&gt;. I&amp;rsquo;d never used one, but I knew that they were pretty sought after for their clicky keys. (Can confirm; extremely clicky.)&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/4/48/IBM_Model_M.png&#34; alt=&#34;IBM Model M&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I&amp;rsquo;m not using it (it&amp;rsquo;s a little &lt;em&gt;too&lt;/em&gt; clicky, it&amp;rsquo;s not split, and my laptop doesn&amp;rsquo;t have a PS/2 port), but it&amp;rsquo;s neat to have.&lt;/p&gt;
+
+&lt;h2 id=&#34;microsoft-4000:061ed8642bb5183054a15f89090ff532&#34;&gt;Microsoft 4000&lt;/h2&gt;
+
+&lt;p&gt;At work I recently found an old Microsoft Natural Ergonomic Keyboard 4000 in the closet, and started using it.&lt;/p&gt;
+
+
+&lt;figure class=&#34;right&#34;&gt;
+    
+        &lt;img src=&#34;https://c7.staticflickr.com/1/666/30695061574_88441be033_z.jpg&#34; alt=&#34;Microsoft Ergonomic Keyboard 4000&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;It&amp;rsquo;s fairly comfortable, but to my surprise, it actually takes more force to push down the keys than the mechanical keyboards I&amp;rsquo;ve used. (This might not be the case with newer models, I&amp;rsquo;m guessing the one I&amp;rsquo;m using is at least 4 or 5 years old.) I&amp;rsquo;ve also come to dislike the numpad (on any keyboard, not specifically on this one), since you have to reach further for the mouse.&lt;/p&gt;
+
+&lt;h1 id=&#34;mistel-barocco-review:061ed8642bb5183054a15f89090ff532&#34;&gt;Mistel Barocco review&lt;/h1&gt;
+
+&lt;p&gt;The keyboard I eventually went with&amp;ndash;back in October&amp;ndash;was the Mistel Barocco with Cherry MX Brown switches &lt;a href=&#34;https://smile.amazon.com/Mistel-Ergonomic-Mechanical-Keyboard-Switches/dp/B01KN6LBDU?th=1&#34;&gt;from Amazon&lt;/a&gt;. The form factor is pretty similar to the Ultimate Hacking Keyboard and the Ergodox, but the price is $160, which I could stomach.&lt;/p&gt;
+
+
+&lt;figure class=&#34;left large&#34;&gt;
+    
+        &lt;img src=&#34;https://c3.staticflickr.com/1/212/31440232002_e221cdff4a_c.jpg&#34; alt=&#34;Mistel Barocco&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;It&amp;rsquo;s been awesome so far. I was a little hesitant at first, because it just came out in August, and there were only a couple reviews when I bought it (still only 9 at the time of this writing), but the ones that were there were pretty thorough and enthusiastic about it. My only gripes with it are that&amp;ndash;though the two halves fit together&amp;ndash;there&amp;rsquo;s no mechanism for keeping them together, which would&amp;rsquo;ve been useful for transporting; and also that the keys aren&amp;rsquo;t backlit (although there are now backlit models available for $180). (I&amp;rsquo;ve also had issues with the left half of the keyboard not being immediately recognized after waking my laptop, but I&amp;rsquo;m fairly certain this is either being caused by my OS or the USB hub the keyboard is plugged into, or some combination thereof.) But these are minor gripes. Overall the keyboard has been awesome to use. It&amp;rsquo;s both the first ergonomic keyboard and the first mechanical keyboard that I&amp;rsquo;ve used full time, and it&amp;rsquo;s been extremely comfortable and easy to get used to.&lt;/p&gt;
+
+&lt;p&gt;Although I&amp;rsquo;d still like to try a few of the others that I mentioned (esp. Keyboardio and Ergodox), I&amp;rsquo;ve been really pleased with the Barocco, even before considering prices. I&amp;rsquo;d highly recommend it to anyone who spends a lot of time typing.&lt;/p&gt;
+
+&lt;h1 id=&#34;to-colemak:061ed8642bb5183054a15f89090ff532&#34;&gt;To Colemak&amp;hellip;&lt;/h1&gt;
+
+&lt;p&gt;Another thing (besides mechanical keyswitches and a split design) that I often see mentioned in online discussions about keyboards is key layout. The argument against QWERTY usually goes that it was designed in the 19th century, and meant for typewriters, and so was designed with a set of goals and restrictions that no longer exist or don&amp;rsquo;t apply today (i.e. that letters often appearing in subsequent order shouldn&amp;rsquo;t be next to each other to prevent jamming, and that the keys in &amp;ldquo;typewriter&amp;rdquo; should be located entirely in the top row for demonstration purposes&lt;a class=&#34;ref&#34; href=&#34;#ref-1&#34; id=&#34;cit-1&#34;&gt;[1]&lt;/a&gt;). So QWERTY is what was designed, and it&amp;rsquo;s what we still have today because it&amp;rsquo;s impractical to switch since QWERTY is what everyone has learned and gotten used to.&lt;/p&gt;
+
+&lt;p&gt;But that hasn&amp;rsquo;t stopped individuals from coming up with new layouts and switching themselves. And people who switch often report major increases in comfort, and sometimes minor increases in typing speed. In the &amp;lsquo;30s we got &lt;a href=&#34;https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard&#34;&gt;Dvorak&lt;/a&gt;, still the second most popular layout after QWERTY. In the 2000s, there have been a lot of new layouts, often designed partially or entirely by computer algorithm to optimize for things like commonly adjacent letters being placed on opposite halves, and the most common letters being on the home row. Colemak and Workman are the most popular of the more recent layouts.&lt;/p&gt;
+
+&lt;p&gt;In November I switched to &lt;a href=&#34;https://colemak.com/&#34;&gt;Colemak&lt;/a&gt; since it&amp;rsquo;s a pretty popular layout&lt;a class=&#34;ref&#34; href=&#34;#ref-2&#34; id=&#34;cit-2&#34;&gt;[2]&lt;/a&gt;  (third, after QWERTY and Dvorak) so there are a lot of anecdotes and guides available from people who switched (I was especially worried about having to move things around in Vim). The first couple weeks proved to be &lt;em&gt;really&lt;/em&gt; difficult. ~15 years of touch typing with QWERTY is not easily unlearned. I practiced a lot with &lt;a href=&#34;http://zty.pe/&#34;&gt;zty.pe&lt;/a&gt;, a typing game my friend Zach had shown me, and that helped a lot. After 4 weeks I was fairly comfortable with it, and had gotten close to my speed with QWERTY.&lt;/p&gt;
+
+&lt;p&gt;But even by only a couple weeks in, I noticed a &lt;em&gt;huge&lt;/em&gt; increase in comfort. Luckily I&amp;rsquo;ve never dealt with too much wrist pain, but at the end of some days where I&amp;rsquo;ve spent a lot of time typing, I&amp;rsquo;ve had some aches. I haven&amp;rsquo;t noticed this at all since switching to Colemak.&lt;/p&gt;
+
+&lt;h1 id=&#34;and-back-again:061ed8642bb5183054a15f89090ff532&#34;&gt;&amp;hellip; and back again&lt;/h1&gt;
+
+&lt;p&gt;Alas, all good things must come to an end. I got a job that entails working on other people&amp;rsquo;s workstations much of the time, which means I have to stick with QWERTY for the time being. Part of me is considering trying to stay proficient in both layouts, but I&amp;rsquo;m not sure it would be worth the trouble&lt;a class=&#34;ref&#34; href=&#34;#ref-3&#34; id=&#34;cit-3&#34;&gt;[3]&lt;/a&gt;. It took me about 2 days before I was back to my normal speed and comfort level with QWERTY. (I used zty.pe again to make the switch back.)&lt;/p&gt;
+
+&lt;h1 id=&#34;notes:061ed8642bb5183054a15f89090ff532&#34;&gt;Notes&lt;/h1&gt;
+
+&lt;p&gt;&lt;ol&gt;&lt;li id=&#34;ref-1&#34;&gt;The Colemak website has a more extensive list of complaints about &lt;a href=&#34;https://colemak.com/FAQ#What.27s_wrong_with_the_QWERTY_layout.3F&#34;&gt;QWERTY&lt;/a&gt; and &lt;a href=&#34;https://colemak.com/FAQ#What.27s_wrong_with_the_Dvorak_layout.3F&#34;&gt;Dvorak&lt;/a&gt;. &lt;a class=&#34;cit&#34; href=&#34;#cit-1&#34;&gt;&amp;crarr;&lt;/a&gt;&lt;/li&gt;
+
+  &lt;li id=&#34;ref-2&#34;&gt;Colemak (along with Dvorak) was also an option built-in to my new Barocco keyboard, although I found it easier to just use my OS&amp;rsquo;s built-in keyboard layout options. &lt;a class=&#34;cit&#34; href=&#34;#cit-2&#34;&gt;&amp;crarr;&lt;/a&gt;&lt;/li&gt;
+
+  &lt;li id=&#34;ref-3&#34;&gt;Though I&amp;rsquo;d be interested in &lt;a href=&#34;#contact&#34;&gt;in hearing from&lt;/a&gt; anyone who regularly moves between different layouts. &lt;a class=&#34;cit&#34; href=&#34;#cit-3&#34;&gt;&amp;crarr;&lt;/a&gt;&lt;/li&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>The Mobile Computer I Want</title>
+      <link>https://natedobbins.net/computers/the-mobile-computer-i-want.html</link>
+      
+      <pubDate>Sun, 24 Jul 2016</pubDate>
+      <author>Nate Dobbins</author>
+      <guid>https://natedobbins.net/computers/the-mobile-computer-i-want.html</guid>
+      <description>
+
+&lt;p&gt;My phone has been bumming me out lately. I&amp;rsquo;ve decided to fantasize about my ideal mobile computer, a rough description of which is as follows.&lt;/p&gt;
+
+&lt;figure class=&#34;right&#34;&gt;
+  &lt;img src=&#34;https://pyra-handheld.com/boards/pyrapics/pyrared.png&#34; /&gt;
+  &lt;figcaption&gt;The &lt;a href=&#34;https://pyra-handheld.com/boards/pages/pyra/&#34;&gt;Dragonbox Pyra&lt;/a&gt; comes pretty close to everything I want. The original Dragonbox device, the &lt;a href=&#34;https://pyra-handheld.com/boards/pages/pandora/&#34;&gt;Pandora&lt;/a&gt;, was released in 2008 and still receives OS updates, and you can still buy any replacement parts needed.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;screen:9c931dc12966c06dc1212525a5e987c2&#34;&gt;Screen&lt;/h1&gt;
+
+&lt;p&gt;I&amp;rsquo;m ready to be done with back-lit, full-color, battery-busting displays. My ideal computer would have a 5&amp;rdquo;-6&amp;rdquo; front-lit e-ink display, ideally in color. Color e-ink has suffered through various fits and starts over the last 5 or so years, most recently being &lt;a href=&#34;http://www.pcmag.com/news/344735/e-ink-shows-off-full-color-display&#34;&gt;announced&lt;/a&gt; by E Ink (the company) for digital signage at the SID Display Week exhibition in May. There are some obvious use-cases that e-ink isn&amp;rsquo;t well-suited for (watching videos, playing fast-paced games), but the things that e-ink &lt;em&gt;is&lt;/em&gt; good for (reading and writing text) is exactly what I want my computer to encourage me to do more of. (Besides, &lt;a href=&#34;https://www.youtube.com/watch?v=CWZfU_21ZbI&#34;&gt;Sonic the Hedgehog running on a Nook Simple Touch from 2011&lt;/a&gt; has me not too worried about actual refresh rate when I want to watch a video or something.)&lt;/p&gt;
+
+&lt;h1 id=&#34;cpu-and-antennas:9c931dc12966c06dc1212525a5e987c2&#34;&gt;CPU and Antennas&lt;/h1&gt;
+
+&lt;p&gt;There are some &lt;a href=&#34;https://imgur.com/a/J0P5n&#34;&gt;cool mini-computers&lt;/a&gt; that use a Raspberry Pi, and that was where my intuition took me first. But for my main computer, I&amp;rsquo;d like something a little bit more powerful and flexible. Although it&amp;rsquo;s not finished yet, the &lt;a href=&#34;http://www.lowrisc.org/&#34;&gt;lowRISC&lt;/a&gt; system-on-a-chip seems to be just about the perfect candidate.&lt;/p&gt;
+
+&lt;figure class=&#34;left&#34;&gt;
+  &lt;img src=&#34;https://global.blackberry.com/content/dam/blackberry-com/images/smartphones/blackberry-priv/specifications/3.png&#34; /&gt;
+  &lt;figcaption&gt;The Blackberry Priv, Blackberry&#39;s first phone not running BBOS. The &lt;a href=&#34;http://pocketnow.com/2015/11/13/8-fun-blackberry-priv-features#toc-6&#34;&gt;keyboard doubles as a trackpad&lt;/a&gt; for swiping and moving the cursor in text areas, as with other recent Blackberry phones. The lack of removable battery is the main thing that kept me from getting it.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For antennas, my computer would only have WiFi, GPS, and accelerometer onboard. There would also be a separate USB module (or a couple) for FM radio, bluetooth, NFC, SIM card, and cellular antennas. (A camera and microphone would also be in a separate USB module.) I prefer to keep it lean with only the necessities.&lt;/p&gt;
+
+&lt;h1 id=&#34;ports:9c931dc12966c06dc1212525a5e987c2&#34;&gt;Ports&lt;/h1&gt;
+
+&lt;p&gt;All the ports! I want to be able to hook up an external keyboard, mouse, and display to put together whatever workspace I want as a &amp;ldquo;dumb terminal&amp;rdquo; that plugs into my computer. Microsoft and Canonical have notably been pushing in this direction recently (with Windows 10 and Unity 8, respectively), and the Dragonbox devices are perfectly suited to it. Luckily, we don&amp;rsquo;t need any new technology to pull it off, we just need to revert the trend of fewer and fewer ports on computers. This sort of setup obviously can&amp;rsquo;t cater to everybody (AAA gamers, people compiling big codebases, people using CAD), but I think it could be a big step when we can realistically only own one computer and connect it to various workspace configurations, rather than having some combination of smartphone, tablet, laptop, desktop, work computer, smart TV, and game console&amp;ndash;all with their own CPUs. Movement in this direction would make different computing environments cheaper and more accessible (for people who now can only afford a smartphone, for example).&lt;/p&gt;
+
+&lt;figure class=&#34;right&#34;&gt;
+  &lt;img src=&#34;https://www.wired.com/wp-content/uploads/2016/02/fairphone-gallery05-1024x768.jpg&#34; /&gt;
+  &lt;figcaption&gt;The Fairphone 2 is the only smartphone to ever receive a &lt;a href=&#34;https://www.ifixit.com/Teardown/Fairphone+2+Teardown/52523&#34;&gt;10/10 repairability score from iFixit&lt;/a&gt;. Fairphone (a Dutch company) is also the only smartphone producer that I&#39;m aware of that uses only conflict-free materials in its phones.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Specifically, I&amp;rsquo;d like to have a couple USB-B slots (either USB 2 or 3), one or two USB-C slots, ethernet, HDMI (either micro or full-size), and a 3.5mm headset port.&lt;/p&gt;
+
+&lt;h1 id=&#34;modularity:9c931dc12966c06dc1212525a5e987c2&#34;&gt;Modularity&lt;/h1&gt;
+
+&lt;p&gt;Upgradeability, durability, and repairability are of the utmost importance for my computer. It should take heed from computers like older ThinkPads, the &lt;a href=&#34;https://www.fairphone.com/&#34;&gt;Fairphone&lt;/a&gt; 2, and the DragonBox Pyra. It should encourage the replacement of the battery (which should be giant, by the way), and make accessible each of the other boards, sealed only by Phillips screws. This thing should be built to last on the scale of one to two decades (or more).&lt;/p&gt;
+
+&lt;h1 id=&#34;keyboard:9c931dc12966c06dc1212525a5e987c2&#34;&gt;Keyboard&lt;/h1&gt;
+
+&lt;p&gt;Although software keyboards have made significant gains in the last few years (mostly by getting creative with swiping), they&amp;rsquo;re still woefully inferior to hardware keyboards. The effect this has on defining the purpose of a device is massive; getting any kind of productive work done with a software keyboard is left only to a dedicated few. For most intents and purposes, it just won&amp;rsquo;t cut it. This leaves keyboardless smartphones and tablets fully in the realm of devices made for consumption.&lt;/p&gt;
+
+&lt;figure class=&#34;left&#34;&gt;
+  &lt;img src=&#34;https://cdn.arstechnica.net/wp-content/uploads/2013/06/kindle-dx-is-back.jpg&#34; /&gt;
+  &lt;figcaption&gt;The Amazon Kindle DX, from 2009, with a giant 10 inch e-ink display ticks a few of my boxes, but is no longer available new.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Although I&amp;rsquo;d like to have some room for consumption (long texts, blog posts, music, and podcasts come to mind), I want my computer to cater to creativity and productivity. The current market for devices that fill this niche is underwhelming, to say the least. On my computer, the keyboard would sit under the portrait-situated screen (i.e. not a slider). It would have the full set of keys from full-sized keyboards, and would include the ability to swipe across the keyboard to move the cursor (shamelessly stolen from recent Blackberry keyboards).&lt;/p&gt;
+
+&lt;h1 id=&#34;software:9c931dc12966c06dc1212525a5e987c2&#34;&gt;Software&lt;/h1&gt;
+
+&lt;p&gt;The duopoly in mobile operating systems has left us with gimped computers that are meant to favor app stores over the open web (and&amp;ndash;to beat a dead horse&amp;ndash;to encourage consumption). My computer would start with &lt;a href=&#34;https://www.coreboot.org/&#34;&gt;coreboot&lt;/a&gt; or &lt;a href=&#34;https://libreboot.org/&#34;&gt;libreboot&lt;/a&gt;, and allow the user to use whichever OS they&amp;rsquo;d prefer. By default, it&amp;rsquo;d perhaps come with either Debian or rooted Android (probably of the &lt;a href=&#34;https://copperhead.co&#34;&gt;Copperhead OS&lt;/a&gt; variety) for ease of use. Regardless, allowing the user to have full control over the software is paramount.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The monoculture of smartphone and tablet design is disappointing. The dominance of iOS and Android&amp;ndash;to the exclusion of most other competitors like Blackberry, Windows, Mozilla, Jolla&amp;ndash;does no one any favors (well, no end users at least). At least among my peers in my generation, it would seem very strange to most if someone didn&amp;rsquo;t have either an Android or iOS phone, let alone if someone didn&amp;rsquo;t carry a smartphone at all.&lt;/p&gt;
+
+&lt;p&gt;My main beef with this situation is that almost all of these phones are unabashedly computers meant for consumption and convenience over all else. Whereas computers with hardware keyboards and many ports and bigger screens are as effective of tools for creativity as they are for consumption, our modern slabs mostly hinder any chances for creativity (or, at least, they offer no where near the capacity for productivity that the aforementioned computers do). What I was really thinking about when describing my ideal mobile computer is how I could combine all of the benefits of laptops, e-readers, and smartphones into one. I want to have as much power as I do on my laptop with the portability of my smartphone.&lt;/p&gt;
+
+&lt;p&gt;On the web, we&amp;rsquo;ve seen a long and gradual shift toward the centralization of content and services at the server level (AWS) and the service level (Facebook, Google, etc.), instead of the spreading out of power. ISPs have increasingly exerted more control and made it impractical to run any type of server at home (the suggestion itself sounds almost absurd) by reducing upload times to near zero, and blocking ports needed to run home servers. To me, this gradual centralization of web services and inability to run servers from home seems parallel and analogous to the gradual shift toward computers that are useful only for consumption.&lt;/p&gt;
+
+&lt;p&gt;In one sense, it&amp;rsquo;s wonderful that cheap smartphones have enabled so many to access the web. I should note that I wouldn&amp;rsquo;t suggest that all consumption is necessarily a bad thing. For example, access to information via Wikipedia, books via Project Gutenberg, classes via Khan Academy, repair tutorials via iFixit, and countless other sources can all be wonderful modes of consumption. But, it seems like as our devices cater more and more toward consumption and reliance on centralized services (rather than productivity and independence), the feedback loop that centralizes services will only be added to, empowering manufacturers and service providers at the expense of users.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>At Home, Fixing Things</title>
+      <link>https://natedobbins.net/computers/at-home-fixing-things.html</link>
+      
+      <pubDate>Thu, 26 May 2016</pubDate>
+      <author>Nate Dobbins</author>
+      <guid>https://natedobbins.net/computers/at-home-fixing-things.html</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m home! I got back the first week of May, and have been hanging out in Rochester since. It&amp;rsquo;s been nice and relaxing, but I&amp;rsquo;m moving back up to St. Paul on June 1st.&lt;/p&gt;
+
+&lt;p&gt;In my last week in Thailand, my laptop started refusing to boot up (&lt;code&gt;FAN ERROR.&lt;/code&gt;), and a tiny crack appeared on my phone screen and gradually turned into a big crack, rendering it unable to pick up most touches and swipes. Evidently the computing gods were angry that I was leaving the Land of Australian Expats, but I figured I&amp;rsquo;d give a shot at fixing them since they&amp;rsquo;re both only a couple years old. I&amp;rsquo;m not sure what caused either of the problems.&lt;/p&gt;
+
+&lt;p&gt;The laptop (a 2013 ThinkPad X1 Carbon) would display the ThinkPad splash screen, then give a beep inform me that there was a &lt;code&gt;FAN ERROR&lt;/code&gt;. I couldn&amp;rsquo;t get into BIOS. After a big of googling, it was pretty apparent that I&amp;rsquo;m not the first to run into this issue. Seems that it&amp;rsquo;s a normal thing among various 2008-2014 X and T series (at least) ThinkPads. Unfortunately the usual advice seemed to be either replace the fan or blow on the fan exhaust port to trick it into booting up, after which you&amp;rsquo;d have to monitor the system temperature (&amp;hellip;). I tried the blowing thing and couldn&amp;rsquo;t get it to work.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d somewhat regretted getting an ultrabook for a while since it&amp;rsquo;s just short of impossible to replace most parts, and I was again cursing my judgment since I figured it&amp;rsquo;d be a mess if I tried to get the fan out of there. But I decided to open it up and take a look.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;https://c3.staticflickr.com/8/7547/27125755442_e1cd5a7335_z.jpg&#34; alt=&#34;There were 7 Phillips head screws holding the case together, and you have to pull the keyboard side up, which threw me off for a minute. The fan is the circular thing underneath the copper-colored thing.&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        There were 7 Phillips head screws holding the case together, and you have to pull the keyboard side up, which threw me off for a minute. The fan is the circular thing underneath the copper-colored thing.
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;I manually spun the fan around a couple times and noticed that at a certain point in the rotation it seemed to get stuck on something. There was no way to look at what it was without removing the fan glue, but I manually spun it around a few more times, and blew compressed air around the whole board, which seemed to dislodge whatever the fan was stuck on.&lt;/p&gt;
+
+&lt;p&gt;After this the computer magically booted up again. Hopefully this will be helpful to a future googler who&amp;rsquo;s about to smash their ThinkPad over their head.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Replacing the screen on my phone (an LG G3) promises to be a bit more work. Luckily iFixit has &lt;a href=&#34;https://www.ifixit.com/Guide/LG+G3+Screen+Replacement/33203&#34;&gt;an awesome guide&lt;/a&gt; for exactly this. I just need to get around to ordering the parts and tools.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+  </channel>
+</rss>
+

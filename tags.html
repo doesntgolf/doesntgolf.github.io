@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang=en-US>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tags ‧  Nate Dobbins</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Nate Dobbins">
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="/tags.html">
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="alternate" type="application/rss+xml" title="All posts" href="/index.xml" />
+  
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="max-width-4 mx-auto sm-flex items-end">
+
+      <img class="px1" src="/img/robin2.png" title="image by Nick Lee, CC BY; see footer" alt="watercolor robin" />
+      <nav class="flex-auto px1">
+        <h1><a href="/">Nate Dobbins</a></h1>
+        <div id="nav-div"><a href="/" >about</a> ‧ <a href="/archive.html">archive</a> ‧ <a href="/tags.html" class="active">tags</a> ‧ <a href="/projects.html">projects</a><span id="links-span"></span></div>
+      </nav>
+      <div id="search-div" class="px1 pt1"></div>
+        
+      <script>
+        var linksSpan = document.getElementById('links-span');
+        linksSpan.innerHTML = ' ‧ <a href="/links.html">links</a>';
+
+        var searchDiv = document.getElementById('search-div');
+        searchDiv.innerHTML = '<form class="search-bar" action="/search.html"><input type="search" id="search" name="query" required /><button type="submit">search</button></form>';
+      </script>
+
+    </div>
+  </header>
+  <hr />
+  <main class="line-height-4 my1">
+    <div class="max-width-4 mx-auto clearfix">
+
+
+  <div class="page-header px1">
+    <h1 class="feed-title">tags</h1> 
+    <p class="m0">posts by topic. [<a href="/archive.html">view all posts</a>]</p>
+  </div>
+
+  <div class="px1">
+
+  <div id="tag-cloud"></div>
+
+  <section>
+    <ul class="list-reset">
+      
+        
+      
+        
+        <li class="mb1"><a href="/audio/">audio</a> (2 posts) <small>[<a href="/audio/index.xml">feed</a>]</small></li>
+        
+      
+        
+        <li class="mb1"><a href="/birds/">birds</a> (1 posts) <small>[<a href="/birds/index.xml">feed</a>]</small></li>
+        
+      
+        
+        <li class="mb1"><a href="/books/">books</a> (1 posts) <small>[<a href="/books/index.xml">feed</a>]</small></li>
+        
+      
+        
+        <li class="mb1"><a href="/computers/">computers</a> (4 posts) <small>[<a href="/computers/index.xml">feed</a>]</small></li>
+        
+      
+        
+        <li class="mb1"><a href="/story/">story</a> (2 posts) <small>[<a href="/story/index.xml">feed</a>]</small></li>
+        
+      
+        
+        <li class="mb1"><a href="/travel/">travel</a> (6 posts) <small>[<a href="/travel/index.xml">feed</a>]</small></li>
+        
+      
+        
+        <li class="mb1"><a href="/weblog/">weblog</a> (4 posts) <small>[<a href="/weblog/index.xml">feed</a>]</small></li>
+        
+      
+    </ul>
+  </section>
+
+  </div>
+
+  <script>
+    var TR = new Object();
+    TR.taglist = { "audio":"2","birds":"1","books":"1","computers":"4","story":"2","travel":"6","weblog":"4","":"0" };
+
+    TR.MAX_FONT_SIZE = 30;
+    TR.MIN_FONT_SIZE = 12;
+    TR.startColor = [0400,6999,8999];
+    TR.endColor   = [0400,6999,3000];
+    TR.isRGB      = 0;
+
+    TR.minCount = 1;
+    TR.maxCount = 3;
+
+    function pb_cook(s) {
+      return s;
+    }
+
+    function pb_render_tag(tag, size, color) {
+      var ctag = pb_cook(tag);
+      var link = '<a href="/' + ctag + '/" style="font-size:' + size + 'px;color:' + color + ';border-bottom:none;">' + ctag + '</a> ';
+      
+      return link;
+    }
+
+    function scale(start, end, val, minVal, maxVal) {
+    if (start > end) {
+        var factor = (start - end) / Math.log(maxVal / minVal);
+        var result = start - Math.round(Math.log(val / minVal) * factor);        
+      } 
+      else {
+        var factor = (end - start) / Math.log(maxVal / minVal);
+        var result = Math.round(Math.log(val / minVal) * factor + start);
+      }
+      return result;
+    }
+
+    function toRGBString(rgbVal) {
+      var result = "#";
+      for (var i = 0; i < 3; i++) {
+        if (rgbVal[i] < 16) {
+          result = result + '0';
+        }
+        result = result + rgbVal[i].toString(16);
+      }
+      return result;
+    }
+
+    function HSBtoRGB(hue, saturation, brightness) {
+      var r = 0;
+      var g = 0;
+      var b = 0;
+
+      var hu  = hue / 10;
+      var sat = saturation / 10000;
+      var bri = brightness / 10000;
+    
+      if (saturation == 0) {
+	      r = g = b = Math.round(bri * 255);
+	    } else {
+	      var h = hu / 60;
+	      var f = h - Math.floor(h);
+	      var p = bri * (1.0 - sat);
+	      var q = bri * (1.0 - sat * f);
+	      var t = bri * (1.0 - (sat * (1.0 - f)));
+
+        h = Math.floor(h);
+
+        switch (h) {
+          case 0:
+            r = Math.round(bri * 255.0);
+            g = Math.round(t * 255.0);
+            b = Math.round(p * 255.0);
+            break;
+          case 1:
+            r = Math.round(q * 255.0);
+            g = Math.round(bri * 255.0);
+            b = Math.round(p * 255.0);
+            break;
+          case 2:
+            r = Math.round(p * 255.0);
+            g = Math.round(bri * 255.0);
+            b = Math.round(t * 255.0);
+            break;
+          case 3:
+            r = Math.round(p * 255.0);
+            g = Math.round(q * 255.0);
+            b = Math.round(bri * 255.0);
+            break;
+          case 4:
+            r = Math.round(t * 255.0);
+            g = Math.round(p * 255.0);
+            b = Math.round(bri * 255.0);
+            break;
+          case 5:
+            r = Math.round(bri * 255.0);
+            g = Math.round(p * 255.0);
+            b = Math.round(q * 255.0);
+            break;
+	      }
+	    }
+
+      var result = [r, g, b];
+	    return result;
+    }
+
+    var tagCloud = document.getElementById('tag-cloud');
+    tagCloud.innerHTML = '<div id="tag-target"></div>';
+    var tagTarget = document.getElementById('tag-target');
+
+    for (var t in TR.taglist) {
+      var count  = TR.taglist[t];
+      var size   = scale(TR.MIN_FONT_SIZE, TR.MAX_FONT_SIZE, count, TR.minCount, TR.maxCount);
+      var rgbVal = new Array(3);
+
+      for (var i = 0; i < 3; i++) {
+        rgbVal[i] = scale(TR.startColor[i], TR.endColor[i], count, TR.minCount, TR.maxCount);
+      }
+
+      if (!TR.isRGB) {
+        rgbVal = HSBtoRGB(rgbVal[0], rgbVal[1], rgbVal[2]);
+      }
+
+      var formatted = pb_render_tag(t, size, toRGBString(rgbVal));
+
+      tagTarget.innerHTML += formatted;
+    }
+    
+  </script>
+
+      </div>
+    </main>
+    <hr />
+    <footer class="site-footer max-width-4 mx-auto p1">
+
+      <p id="license">All content <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike</a> unless otherwise noted. (<a href="/license.html">Read more.</a>)</p>
+      <p id="contact">You can reach me by email at <em>nated [at] posteo [dot] net</em> or on matrix <em>@nated:matrix.org</em>. I have a <a href="https://keybase.io/natedobbins/key.asc">public key</a> (<code>3791 B503 7FB3 BF5C</code>).</p>
+      <p id="site-info">Site built with <a href="https://gohugo.io">Hugo</a>. Header image by Nick Lee, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a> (<a href="https://www.flickr.com/photos/gamutless/3788100979/in/faves-133041204@N06/">original</a>). You can subscribe to all posts via the <a href="/index.xml">main RSS feed</a>, or to any topic at /<em>tag</em>/index.xml (see the <a href="/tags.html">tags page</a>).</p>
+      <span class="active">**</span>
+  
+    </footer>
+
+		
+
+<script>
+
+
+
+
+
+
+</script>
+
+
+  </body>
+</html>
+
